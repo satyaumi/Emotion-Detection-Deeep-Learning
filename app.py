@@ -8,6 +8,11 @@ import cv2
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 
+st.title("Emotion Detection using Deep Learning")
+
+st.markdown('Link to the app -[emotion-detect-app on 🤗 spaces ] (https://huggingface.co/spaces/satyamlk/Emotion-Detection)')
+
+
 model =tf.keras.models.load_model('Resnet_model_version_5.keras')
 
 emotion_labels ={'angry':0, 'disgust':1,'fear':2,'happy':3,'neutral':4,'sad':5,'surprise':6}
