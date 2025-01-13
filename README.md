@@ -9,4 +9,4 @@ pinned: false
 
 ---       
 
-[Try it on Hugging Face Spaces](https://huggingface.co/spaces/yourusername/your-space-name)
+[Try it on Hugging Face Spaces](https://huggingface.co/spaces/satyamlk/Emotion-Detection)
